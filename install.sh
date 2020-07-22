@@ -166,6 +166,7 @@ then
             ╔═════════════════════════════════════════════════════════════════════╗ 
             ║                                                                     ║
             ║   Develope & modified by \"**Abdullah Al Naiem**\" @naiemofficial     ║
+            ║   Website   : https://naiem.info                                    ║
             ║   Facebook  : http://facebook.com/naiemofficial                     ║
             ║   Instagram : http://instagram.com/naiemofficial                    ║
             ║   E-mail    : mail@naiem.info                                       ║
