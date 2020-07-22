@@ -27,7 +27,7 @@ echo -e "
 ╚═════════════════════════════════════════════════╝
 \n\n"
 
-echo -e "[[**DISCLAIMER**]]: You're excuting script to install Bengali Fonts in Linux operating system. Be aware that all scripts are run at your own risk and while every script has been written with the intention of minimising the potential for unintended consequences, the owners, hosting providers and contributers cannot be held responsible for any misuse or script problems.\n"
+echo -e "[[**DISCLAIMER**]]: You're excuting script to install Bangla Fonts in Linux operating system. Be aware that all scripts are run at your own risk and while every script has been written with the intention of minimising the potential for unintended consequences, the owners, hosting providers and contributers cannot be held responsible for any misuse or script problems.\n"
 
 
 read -p 'Do you want to continue? [Y/n]: ' confirm
@@ -58,7 +58,7 @@ then
 	then
 		echo -e "\nIntertnet connection: OK\n"
 		# File url and mirror
-		downloadUrls=("https://naiem.info/files/archive/LinuxBanglaFonts.tar.gz" "https://raw.githubusercontent.com/naiemofficial/Linux-Bangla-Font/master/LinuxBanglaFonts.tar.gz")
+		downloadUrls=("https://naiem.info/files/archive/LinuxBanglaFonts.tar.gz" "https://raw.githubusercontent.com/naiemofficial/Linux-Bangla-Font/shell/LinuxBanglaFonts.tar.gz")
 		pURL="" # it will select lowest latency mirror
 
 
@@ -135,7 +135,7 @@ then
 		if [ ! -d "$directoy" ]; then
 		  mkdir -p $directoy
 		else
-		  echo -e "Upgrading Bengali fonts provided by https://naiem.info";
+		  echo -e "Upgrading Bangla fonts provided by https://naiem.info";
 		  rm -r $directoy;
 		fi
 
@@ -153,7 +153,7 @@ then
 		cd
 
 		echo -e "\n"
-		spinner "Initiating_Bengali_fonts.........."
+		spinner "Initiating_Bangla_fonts.........."
 		echo
 		fc-cache -f -v
 		echo -e "\n\n"
@@ -180,10 +180,16 @@ then
 
 elif [ $confirm = "N" ] || [ $confirm = "n" ];
 then
-	echo -e "ⓧ Bengali fonts for Linux installation has been cancelled\n"
+	echo -e "ⓧ Linux Bangla Fonts installation has been cancelled\n"
 else
-	echo -e "Sorry..!! ⓧ Wrong input entered. Bengali font for Linux installation has been aborted. Please try again.\n"
+	echo -e "Sorry..!! ⓧ Wrong input entered. Linux Bangla Fonts installation has been aborted. Please try again.\n"
 fi
+
+
+
+
+#---------------------- END ----------------------#
+
 
 
 
